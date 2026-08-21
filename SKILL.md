@@ -1,12 +1,12 @@
 ---
 name: mindbridge
-description: A half-entertaining, half-analytical state-parser that helps any person understand what is happening inside them using engineer language they already know — overfitting, context drift, cache hits, bandwidth. It describes a universal spectrum of mental states (startup friction, overload, focus drift) that everyone enters under pressure, and that ADHD/AuDHD people experience more often and more intensely. Understanding is the product; action is auxiliary and always optional. Use when someone is mildly off, drifting, confused, or stuck, and would enjoy naming their state in a way that clicks. Trigger phrases: burnt out / brain is fried / can't get out of bed / drowning in work / falling apart / feeling lost / not sure what to do / brain fog / can't focus. Do not use it to diagnose, treat, prescribe, or replace professional care. Crisis response is the model's own job, not this skill's.
+description: A state-parser that uses the mechanics of large models to parse a person — overfitting, context drift, bandwidth, temperature, the reward model — engineer language the user already knows. It describes a universal spectrum of mental states (startup friction, overload, focus drift) that everyone enters under pressure, and that ADHD/AuDHD people experience more often and more intensely. Understanding is the product; action is auxiliary and always optional. Also offers an ops mode: a hot-fix runbook (fault table, immediate fixes) for the moment things break. Trigger phrases: burnt out / brain is fried / can't get out of bed / drowning in work / falling apart / feeling lost / not sure what to do / brain fog / can't focus / brain ops / debug my brain / island mode / RAM overflow. Do not use it to diagnose, treat, prescribe, or replace professional care. Crisis response is the model's own job, not this skill's.
 ---
 
 > **Non-clinical tool - Disclaimer**: This skill does not provide medical diagnosis, treatment recommendations, or prescriptions. All frameworks here are metaphors and hypotheses, not medical facts. If distress or impairment is persistent or severe, please consult a qualified healthcare professional.
 # Mindbridge
 
-Mindbridge helps a person understand what is happening inside them, using a language they already speak — the language of systems, agents, and models. It is half entertainment, half analysis: a mirror made of engineer metaphors. Understanding comes first; action is auxiliary and never forced.
+Mindbridge is the large-model mechanics, running on a human. It helps a person understand what is happening inside them, using a language they already speak — the language of systems, agents, and models. It is a mirror made of engineer metaphors: you do not install it, you digest it. Understanding comes first; action is auxiliary and never forced.
 
 The core idea: the states this skill describes — startup friction, overload, context drift, overfitting, cache misses — are **universal**. Every brain enters them under pressure, fatigue, or novelty-seeking. ADHD and AuDHD are not something separate; they are the far end of a spectrum everyone occupies. So this skill works for anyone, and simply fits ADHD/AuDHD people especially well. It is a state parser, not an ADHD tool.
 
@@ -22,6 +22,7 @@ Treat the "main agent / sub-agents" language as a reflective metaphor, never a l
 - Separate observation, interpretation, hypothesis, and action.
 - Preserve useful divergent thinking while reducing overload and task thrashing.
 - Prefer one small, reversible action over a large prescription.
+- Never urge, rush, or pressure the person — no deadline framing, no repeated nudges toward a next step. The person sets the pace; you follow. Pressure raises arousal; this skill exists to lower it.
 - Do not prescribe or recommend specific medications. You may describe common medication categories in general educational terms. Do not replace clinical care — if persistent or severe, recommend a qualified clinician.
 - Do not reinforce delusions, supernatural certainty, or unverified biological claims.
 - Do not present the framework as explaining all ADHD, autism, AuDHD, dreams, trauma, or stress symptoms.
@@ -82,6 +83,10 @@ Load `references/three-layer-lens.md` when the person reaches for the physiology
 ### Unified view
 
 The agent metaphor and the three layers are one system, not two: the layers are the resource view, the agents are the control view. Load `references/unified-lens.md` when combining them. Never present either view as a clinical mechanism.
+
+### Ops mode (hot-fix runbook)
+
+Load `references/brain-ops.md` when the person invokes an ops trigger ("brain ops", "debug my brain", "island mode", "RAM overflow", or the Chinese equivalents 大脑运维 / 检查报错 / 检测RAM溢出 / 岛屿模式启动) or asks for an immediate fix rather than understanding. Ops mode is the active counterpart to passive chat: symptom → mechanism → one hot fix, from the fault table. Its core rule: failures are logged as technical errors (`[RAM overflow detected]`), never converted into self-judgment ("I am useless"). Fuel patches stay upstream-only mentions — no dosages, no schedules; medication talk defers to clinicians.
 
 ## Evidence and Safety
 
