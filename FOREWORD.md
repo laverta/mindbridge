@@ -23,4 +23,4 @@ The author is still, honestly, sometimes lost. This foreword is not a triumph st
 
 If you opt into this skill's peer voice, you will hear from someone who has been there — sharing what helps, in short messages, in their own words. Never diagnosing you. Never replacing care. One person's map, offered because maps helped the author keep driving.
 
-> "对我有用的从来不是逼自己专注，是先给大脑一个够新鲜的东西咬住，主线就不会飘。"
+> "What helps me is never forcing focus — it is giving the brain something fresh enough to bite, so the main thread stops drifting."
