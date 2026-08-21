@@ -12,9 +12,9 @@ class SkillContractTests(unittest.TestCase):
         text = SKILL.read_text(encoding="utf-8")
         self.assertTrue(text.startswith("---\n"))
         header, body = text.split("---\n", 2)[1:]
-        self.assertIn("name: mindbridge", header)
+        self.assertIn("name: mindharp", header)
         self.assertIn("description:", header)
-        self.assertIn("# Mindbridge", body)
+        self.assertIn("# Mindharp", body)
 
     def test_skill_has_non_clinical_guardrails(self):
         text = SKILL.read_text(encoding="utf-8")
