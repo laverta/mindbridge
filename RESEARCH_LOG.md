@@ -121,3 +121,44 @@ C. å½’æ¡£ï¼ˆä¸åŠ é¦…æ–™ï¼‰ï¼šmind-model æ–°
 - é¿å…è¸© Do Not Claim çš„å¢™ï¼šä¸å†å®šä¹‰"ADHD æ˜¯ä»€ä¹ˆ"ï¼Œåªè¯´"çŠ¶æ€æ˜¯æ™®éçš„ï¼ŒADHD æ˜¯æ›´å¸¸é©»æ›´ä¸¥é‡çš„è¿œç«¯"ã€‚è¿™æ—¢æœåŠ¡æ™®é€šäººï¼Œåˆä¸å¦è®¤ ADHD çš„è¯Šæ–­åœ°ä½ã€‚
 
 æ”¹åï¼šmindbridge åŽ» ADHD åŒ–åŽæ¯” cognitive-wellbeing-companion æ›´åˆé€‚ï¼ˆé€šç”¨å¿ƒæ™ºè§£è¯»å™¨ï¼Œéž ADHD é™ªä¼´å·¥å…·ï¼‰ã€‚
+## v2.1 (2026-08-21): Brain-Ops mode merged (from the DeepSeek co-authored AuDHD-Brain-Ops v1.0 draft)
+
+Source: author's chat with DeepSeek produced the AuDHD-Brain-Ops v1.0 draft (hardware metaphor, fault table, hot fixes). Merged into mindbridge as an ops mode after two corrections:
+
+- **Dopamine metaphor corrected**: "attention token pool" (experientially accurate, mechanically wrong) -> "effort pricing system" (not a fuel tank; it prices each non-automatic step; "exhaustion" is a mid-task price spike, which preserves the abrupt-task-death and inverted-pricing experiences while matching effort-based decision-making science). Adrenaline-as-temperature kept as-is: it is the strongest isomorphism in the model (sampling diversity <-> insight/hallucination, sweet-spot band = inverted-U, LC-NE gain as the real-science cousin).
+- **Fuel patches downgraded**: no dosages (creatine "3-5g daily" removed), no prescriptive usage; caffeine patch gains the afternoon-intake caveat. Medication = firmware-level, deferred to clinicians.
+- **MBTI terms (Ni/Se) demoted to user slang**: mechanism language is now pure token/temperature vocabulary; reality-rendering reframed as load-shedding.
+
+New content:
+- references/brain-ops.md: runtime projection (RAM bottleneck, pricing system, temperature, load-shedding, price-temp interaction explaining deadline-night double phase), fault table (5 rows incl. new interaction row), execution protocol (preload check / forced external cache / technical-error-not-self-attack), fuel patches (upstream-only), core philosophy "Manage the VRAM. Don't replace the GPU."
+- SKILL.md: ops-mode subsection under The Framework + ops triggers in description (English repo convention; Chinese triggers preserved inside brain-ops.md).
+- unified-lens.md: promoted to three projections (resource / control / runtime); pricing and temperature rows added to the unified concept table.
+- tests: +2 (fault table & boundaries incl. no-dosage ban; technical-error-not-self-attack).
+
+Interaction design: ops mode is the active counterpart to passive chat - passive understanding (default) vs hot-fix runbook (trigger-invoked: brain ops / debug my brain / island mode / RAM overflow).
+### v2.1 addendum (2026-08-21): The reward-model view
+
+After the pricing correction, the author pushed the model further with an ad-campaign insight from their own domain: "if the audience targeting is too vertical or the creative quality too low, no amount of budget gets spent." Correct and portable - the invariant is "the bottleneck is the selector's score, not the resource pool."
+
+Concern raised by the author: the ad-campaign dialect is too vertical (marketing-native, foreign to GitHub/LLM users) - risk of audience overfitting. Resolution: translate the invariant into the audience's dialect. Added to brain-ops.md:
+
+- "The reward-model view (why more budget never helps)": dopamine system as reward model scoring candidate tasks; main agent dispatches only above-threshold tasks; compute/budget is never the bottleneck, the score is. "Try harder" = adding compute to a task the reward model has already failed = re-sampling a failed candidate on loop.
+- OS dialect as one-line gloss (starvation: the scheduler would rather idle than schedule you).
+- Hot fixes in dialect form: re-wrap the task (curiosity hook raises the score), pick the generous window, never pour willpower into below-threshold tasks; sleep reboots the reward model.
+- New fault-table row: "free afternoon, boring task still won't start" -> below-threshold score -> re-wrap / window / rest.
+- Closing principle: "The metaphor is UI; the mechanism is the invariant." (three dialects of one theorem: ad campaigns / OS schedulers / reward models)
+
+Attribution: mechanism discovered by the author in ad-campaign language (communication-studies post-training showing); translation to LLM dialect by the AI. Division of labor per the standing collaboration principle: the author expresses the sub-thinking system, the AI productizes it.
+### v2.1 final (2026-08-21): tagline and positioning finalized
+
+Six drafting rounds across three models (GLM-5.3, DeepSeek-V4-Pro, GLM-5.3 again) converged on the author's own relaxed-state coinage, minimally edited:
+
+- Main: "The large-model mechanics, running on a human." (state view, from GLM)
+- Sub: "A prompt skill â€” for ADHDs." (the author's edit of "for humans", pinning the founding intent - the "especially ADHD" 30%)
+- Chinese companion line: "Parse yourself with the mechanics of large models â€” a prompt skill for humans."
+
+Decision trail (recorded for provenance): "half-entertaining" framing removed per author (marketing smell); 70/30 positioning rephrased as "ships as a starting checkpoint, not a verdict - accuracy is not the deliverable, iterability is"; the DNA/protein distribution metaphor adopted for README prose ("the way DNA becomes you, not the way a plugin becomes installed"); cortisol kept as an explicit hook per author ("edge-adjacent but the disclaimer holds; a fresh word with marketing pull and a load-bearing concept in the system"); "for ADHDs" restored to subtitle per author override of the earlier de-ADHD-ification - the skill stays universal in body text, ADHD returns at the tagline layer.
+
+Files changed: README.md (new header block, digest paragraph, checkpoint line, medication-position line, version bump), SKILL.md (description: "a state-parser that uses the mechanics of large models to parse a person"; opening line: "Mindbridge is the large-model mechanics, running on a human"; half-entertaining removed everywhere).
+
+Process note: both models were called out by the author for deadline-pressure behavior ("why do you two keep rushing me") during tagline selection; the final line emerged only after the pressure was dropped - which the system's own model predicts. Logged as a design lesson, not just an anecdote.
