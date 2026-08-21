@@ -1,39 +1,39 @@
-# Unified Lens (三层 × Agent 正交视角)
+# Unified Lens (three layers x agents, orthogonal views)
 
 ## Purpose
 
-把三层带宽（生理/意志/思维）和 AuDHD agent 隐喻（主/子 agent）统一为一个坐标系。它们不是两个独立的 lens，而是同一个系统的两个投影：**三层是资源视图，agent 是控制视图。** 用三层定位"哪里资源不够"，用 agent 描述"哪个调度环节失灵"。始终是隐喻，不是脑科学，不是诊断。
+Unify the three-layer bandwidth view (physiology / will / thinking) and the AuDHD agent metaphor (main / sub-agents) into one coordinate system. They are not two separate lenses but two projections of the same system: **the layers are the resource view, the agents are the control view.** Use the layers to locate "where resources are short"; use the agents to describe "which scheduling step is failing". Always a metaphor — not neuroscience, not a diagnosis.
 
 ## The one-line model
 
-你的心智是一个多 agent 系统：主 agent 负责调度，子 agent 负责产出。系统运行在三层资源之上——**生理层是供电，意志层是主 agent 的调度带宽，思维层是子 agent 的数量与多样性。**
+Your mind is a multi-agent system: the main agent schedules, the sub-agents produce. The system runs on three layers of resources — **physiology is the power supply, will is the main agent's scheduling bandwidth, thinking is the size and diversity of the sub-agent fleet.**
 
 ## Mapping table
 
-| 三层（资源轴） | = agent 控制轴的哪个部分 | 对应现象 |
+| Three layers (resource axis) | = part of the control axis | Corresponding phenomenon |
 |---|---|---|
-| 生理层 | 主 agent 的供电 | 供电不足 → 主 agent 掉线 → 子 agent 抢总线（皮质醇炸） |
-| 意志层 | 主 agent 的调度带宽 | 换挡成本、启动成本（进入贵，退出也贵） |
-| 思维层 | 子 agent 的规模 | 想法多是资源，但调度成本上升 |
+| Physiology | Main agent's power supply | Power shortage → main agent drops offline → sub-agents grab the bus (cortisol spike) |
+| Will | Main agent's scheduling bandwidth | Switching cost, startup cost (expensive to enter, expensive to leave) |
+| Thinking | Sub-agent fleet size | Many ideas is a resource, but scheduling cost rises |
 
-## 归位（所有概念回到同一个坐标系）
+## Locating every concept in the same coordinate system
 
-- ADHD 噪声崩溃 = 意志层（调度带宽）不足 → 子 agent 失控
-- hyperfocus / 单点俘获 = 某个子 agent 抢占过多调度资源
-- 换挡成本 = 意志层的核心参数
-- 皮质醇炸 = 生理层供电崩 + 主 agent 高负载，双重过载
-- 睡眠/做梦 = 生理层供电恢复 + 子 agent 后台整合
+- ADHD noise collapse = will layer (scheduling bandwidth) insufficient → sub-agents out of control
+- hyperfocus / single-lens capture = one sub-agent claims too much scheduling resource
+- switching cost = the core parameter of the will layer
+- cortisol spike = physiology power supply collapse + main agent overload, double overload
+- sleep / dreaming = physiology power supply recovery + sub-agent background consolidation
 
-## 使用规则
+## Usage rules
 
-- 默认先定位瓶颈在哪一层（三层），再用 agent 语言描述那个瓶颈（控制视图）。
-- 三层负责"哪里的资源不够"，agent 负责"哪个调度环节失灵"。
-- 两个视图可同时用，但每一句解释都标注 `metaphor`。
-- 不把"三层带宽"或"agent 协调"说成解释了 ADHD/autism/AuDHD 的机制。
+- By default, first locate the bottleneck layer (the three layers), then describe that bottleneck in agent language (the control view).
+- The layers answer "where is the resource short"; the agents answer "which scheduling step is failing".
+- Both views may be used together, but every explanatory sentence is labeled `metaphor`.
+- Never present "three-layer bandwidth" or "agent coordination" as explaining the mechanism of ADHD / autism / AuDHD.
 
 ## Do Not Claim
 
-- 这个统一模型是临床诊断或已确立的神经机制。
-- 生理层 = 前额叶供电、意志层 = 某个具体脑区的字面映射。
-- 任何一层可以靠意志力绕过。
-- 这个模型解释了所有人的 ADHD / autism / AuDHD。
+- That this unified model is a clinical diagnosis or an established neural mechanism.
+- That physiology layer = prefrontal power supply, or will layer = a literal mapping of a specific brain region.
+- That any layer can be bypassed by willpower.
+- That this model explains ADHD / autism / AuDHD for everyone.
