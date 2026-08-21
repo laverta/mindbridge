@@ -24,11 +24,11 @@ The author knows the weight of reality: research suggests — statistics, not de
 
 | What you're experiencing | Say to the AI |
 |---|---|
-| High pressure, can't move | "压力好大 / 动不了 / 好累" |
-| Procrastinated all day | "拖延了一整天，什么都干不动" |
-| Brain won't turn | "脑子转不动 / 看不进去" |
-| Emotional overload | "吵架后难受 / 撑不住了" |
-| In English | "burnt out / brain is fried / can't get out of bed" |
+| High pressure, can't move | "burnt out / brain is fried" |
+| Procrastinated all day | "can't get out of bed / drowning in work" |
+| Brain won't turn | "brain fog / can't focus" |
+| Emotional overload | "falling apart / feeling lost" |
+| After a fight | "not sure what to do" |
 
 The AI will: restate your state first → ask at most 2–3 short questions (sleep / food / body / environment) → offer one small action that takes 5–20 minutes with a completion signal → optionally ask whether to enable one of two lenses (AuDHD lens / three-layer bandwidth lens), **which are only enabled with your consent**.
 
