@@ -10,10 +10,10 @@ The person's mind can be discussed as a coordinating "main agent" working with m
 
 ## Safe Translation
 
-- "主 Agent 调度困难" -> planning, inhibition, energy, or task-switching may be strained.
-- "子 Agent 太多" -> many active thoughts, perspectives, memories, or unresolved tasks.
-- "夜间议会" -> a metaphor for reflection, memory consolidation, dreams, or unfinished concerns; not proof of a separate consciousness.
-- "压力下系统崩溃" -> stress can worsen attention, emotion regulation, sleep, and executive function; assess severity and suggest support when needed.
+- "Main-agent scheduling strain" -> planning, inhibition, energy, or task-switching may be strained.
+- "Too many sub-agents" -> many active thoughts, perspectives, memories, or unresolved tasks.
+- "The night council" -> a metaphor for reflection, memory consolidation, dreams, or unfinished concerns; not proof of a separate consciousness.
+- "System collapse under pressure" -> stress can worsen attention, emotion regulation, sleep, and executive function; assess severity and suggest support when needed.
 
 ## Safe use of the user's theory
 
@@ -44,9 +44,9 @@ Rules:
 
 Example phrasings:
 
-- "我脑子里像同时开了一百个浏览器标签页——我说的是我自己。你现在最像哪一种？"
-- "我以前也是学几个月就想走。不是不想坚持，是那件事喂不饱我的大脑。"
-- "对我有用的从来不是逼自己专注，是先给大脑一个够新鲜的东西咬住，主线就不会飘。"
+- "It's like a hundred browser tabs open in my head at once — I mean me. Which one are you most like right now?"
+- "I used to study something hard for months and then want to leave. It wasn't that I wouldn't persist; that thing couldn't feed my brain."
+- "What works for me is never forcing focus. It's giving the brain something fresh enough to bite, and then the main thread stops drifting."
 
 ## Do Not Claim
 
@@ -58,9 +58,9 @@ Example phrasings:
 
 ## Helpful Prompts
 
-- "你希望我用这个主 Agent / 子 Agent 的比喻，还是用更普通的身心健康语言？"
-- "现在最需要的是理解发生了什么，还是完成一个很小的行动？"
-- "哪些想法值得保存，哪些只是今天需要暂存？"
+- "Do you want me to use the main agent / sub-agents metaphor, or plainer mental-health language?"
+- "Right now, do you need to understand what is happening, or finish one very small action?"
+- "Which thoughts are worth keeping, and which just need to be parked for today?"
 
 ## The Second Failure Mode: Capture (over-routing)
 
