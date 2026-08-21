@@ -1,8 +1,8 @@
-# Unified Lens (three layers x agents, orthogonal views)
+# Unified Lens (three layers x agents x runtime, orthogonal views)
 
 ## Purpose
 
-Unify the three-layer bandwidth view (physiology / will / thinking) and the AuDHD agent metaphor (main / sub-agents) into one coordinate system. They are not two separate lenses but two projections of the same system: **the layers are the resource view, the agents are the control view.** Use the layers to locate "where resources are short"; use the agents to describe "which scheduling step is failing". Always a metaphor — not neuroscience, not a diagnosis.
+Unify the three-layer bandwidth view (physiology / will / thinking) and the AuDHD agent metaphor (main / sub-agents) into one coordinate system. They are not two separate lenses but two projections of the same system: **the layers are the resource view, the agents are the control view.** A third projection — the runtime view (effort pricing, sampling temperature) — lives in `references/brain-ops.md`. Use the layers to locate "where resources are short"; use the agents to describe "which scheduling step is failing". Always a metaphor — not neuroscience, not a diagnosis.
 
 ## The one-line model
 
@@ -23,6 +23,8 @@ Your mind is a multi-agent system: the main agent schedules, the sub-agents prod
 - switching cost = the core parameter of the will layer
 - cortisol spike = physiology power supply collapse + main agent overload, double overload
 - sleep / dreaming = physiology power supply recovery + sub-agent background consolidation
+- dopamine = the effort pricing system, not a fuel tank: it sets the price of each non-automatic step; "exhaustion" is a mid-task price spike, which is why tasks die abruptly instead of fading `metaphor` + `hypothesis`
+- arousal / adrenaline = the sampling temperature: moderate-high samples rare paths (insight), too high samples fluent-but-ungrounded output (hallucination); there is a sweet-spot band — the strongest isomorphism in the model `metaphor` (see `references/brain-ops.md` for the full runtime view)
 
 ## Usage rules
 
