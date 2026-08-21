@@ -98,6 +98,22 @@ class SkillContractTests(unittest.TestCase):
         self.assertIn("Technical error reporting", text)
         self.assertIn("RAM overflow detected", text)
         self.assertIn("self-attack", text.lower())
+
+    def test_minimum_completion_principle(self):
+        text = SKILL.read_text(encoding="utf-8")
+        self.assertIn("Minimum completion", text)
+        self.assertIn("give the step first", text)
+        self.assertIn("at most one optional follow-up", text)
+        self.assertIn("never re-confirmed", text)
+        self.assertIn("Metaphor on demand", text)
+
+    def test_skill_is_lean(self):
+        # the whole point of the redesign: SKILL.md stays small enough to hold
+        text = SKILL.read_text(encoding="utf-8")
+        self.assertLess(len(text), 6000, "SKILL.md grew too large again")
+        self.assertNotIn("Response Contract", text)
+        self.assertNotIn("Signing the Framework", text)
+
 if __name__ == "__main__":
     import unittest
 
