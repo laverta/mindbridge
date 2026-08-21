@@ -35,6 +35,6 @@ When a person feels that everything is blocked, locate the primary layer first w
 
 ## Helpful Prompts
 
-- "你希望我用三层带宽的视角（生理/意志/思维），还是用更普通的身心健康语言？"
-- "现在卡住的主要是身体、启动、还是想法？我们只处理那一层。"
-- "今天最小的一步是什么，小到几乎不需要意志力？"
+- "Do you want the three-layer bandwidth view (physiology / will / thinking), or plainer mental-health language?"
+- "What is stuck right now — the body, starting, or the thinking? We only work on that layer."
+- "What is today's smallest step, small enough to barely need willpower?"
