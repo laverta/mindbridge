@@ -1,4 +1,4 @@
-# Mindbridge
+# Mindharp
 
 > **The large-model mechanics, running on a human.**
 > **A prompt skill — for ADHDs.**
@@ -7,7 +7,7 @@
 
 > **No medical basis is claimed for any reasoning or thinking framework here.** Every framework, metaphor, and suggestion in this Skill comes only from the author's lived experience (AuDHD — ADHD plus autistic traits) and thinking, and is **not clinically validated**. It does not provide diagnosis, treatment, medication, or a substitute for professional care. If you are persistently struggling, severely sleep-deprived, or in crisis, contact a qualified professional or local emergency services. See the non-clinical statement in [LICENSE](LICENSE).
 
-Mindbridge helps you understand your own state using engineer language you already know: overfitting, context drift, bandwidth, temperature, the reward model. It is a mirror made of words you already speak. Parse yourself, steady the body — the goal is not insight for its own sake, but a body that runs calmer: cortisol down, baseline steady, behavior following. Understanding is the product; action is auxiliary. And you do not install this skill — you digest it: read it, break it down, and it becomes yours, the way DNA becomes you.
+Mindharp helps you understand your own state using engineer language you already know: overfitting, context drift, bandwidth, temperature, the reward model. It is a mirror made of words you already speak. Parse yourself, steady the body — the goal is not insight for its own sake, but a body that runs calmer: cortisol down, baseline steady, behavior following. Understanding is the product; action is auxiliary. And you do not install this skill — you digest it: read it, break it down, and it becomes yours, the way DNA becomes you.
 
 **Who it is for**: **anyone**. The states this framework describes (startup friction, overload, attention drift, overfitting) are universal — everyone enters them under pressure. ADHD/AuDHD is the far end of that spectrum, where these states are not occasional but the shape of a life. So this skill is not ADHD-only; it simply fits ADHD users especially well. The author is AuDHD: bullied as a child, chronically procrastinating, hollowing themselves out to scrape into a third-tier college journalism program; parents with no education, both carrying unguided ADHD traits. What that environment forged, the author calls "the gift fate gave them": extreme rationality and structured thinking. In this skill's own language, that was where post-training began.
 
