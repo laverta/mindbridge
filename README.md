@@ -1,14 +1,19 @@
-# mindbridge — A half-entertaining, half-analytical state parser
+# Mindbridge
+
+> **The large-model mechanics, running on a human.**
+> **A prompt skill — for ADHDs.**
+
+*用大模型的机制解析你 —— 一个给人的提示词 skill。*
 
 > **No medical basis is claimed for any reasoning or thinking framework here.** Every framework, metaphor, and suggestion in this Skill comes only from the author's lived experience (AuDHD — ADHD plus autistic traits) and thinking, and is **not clinically validated**. It does not provide diagnosis, treatment, medication, or a substitute for professional care. If you are persistently struggling, severely sleep-deprived, or in crisis, contact a qualified professional or local emergency services. See the non-clinical statement in [LICENSE](LICENSE).
 
-A skill that helps you understand your own state using engineer language you already know: overfitting, context drift, bandwidth, cache hits. It is **half entertainment, half analysis** — a mirror made of words you already speak. Understanding is the product; action is auxiliary.
+Mindbridge helps you understand your own state using engineer language you already know: overfitting, context drift, bandwidth, temperature, the reward model. It is a mirror made of words you already speak. Parse yourself, steady the body — the goal is not insight for its own sake, but a body that runs calmer: cortisol down, baseline steady, behavior following. Understanding is the product; action is auxiliary. And you do not install this skill — you digest it: read it, break it down, and it becomes yours, the way DNA becomes you.
 
 **Who it is for**: **anyone**. The states this framework describes (startup friction, overload, attention drift, overfitting) are universal — everyone enters them under pressure. ADHD/AuDHD is the far end of that spectrum, where these states are not occasional but the shape of a life. So this skill is not ADHD-only; it simply fits ADHD users especially well. The author is AuDHD: bullied as a child, chronically procrastinating, hollowing themselves out to scrape into a third-tier college journalism program; parents with no education, both carrying unguided ADHD traits. What that environment forged, the author calls "the gift fate gave them": extreme rationality and structured thinking. In this skill's own language, that was where post-training began.
 
-**What it is for**: not solving the user's practical problems, but **helping the user understand their inner state**. Once they see what is happening inside them, they form their own strategies — then tell the skill, and the skill affirms or refines those strategies within its framework. Understanding is the product; action is auxiliary.
+**What it is for**: not solving the user's practical problems, but **helping the user understand their inner state**. Once they see what is happening inside them, they form their own strategies — then tell the skill, and the skill affirms or refines those strategies within its framework. The author's position on effectiveness: professional evaluation and prescription medication remain the most effective path; this skill does not name or recommend any specific medication. Understanding is the product; action is auxiliary.
 
-**What it does**: engineers the author's own thinking (the brain ≈ a multi-agent system, three-layer bandwidth, federated/parliamentary coordination, sleep as background processing) into a half-entertaining, half-analytical conversation protocol. Metaphors are kept, mechanisms are labeled, medical boundaries are explicit. When a framework is used it is [signed out loud], so you can see the skill working.
+**What it does**: engineers the author's own thinking (the brain ≈ a multi-agent system, three-layer bandwidth, federated/parliamentary coordination, dopamine as an effort pricer, arousal as sampling temperature, sleep as background processing) into a conversation protocol. Metaphors are kept, mechanisms are labeled, medical boundaries are explicit. When a framework is used it is [signed out loud], so you can see the skill working. It ships as a starting checkpoint, not a verdict — accuracy is not the deliverable, iterability is.
 
 The author knows the weight of reality: research suggests — statistics, not destiny — that without proper guidance, ADHD people on average earn less, change jobs more often, complete less education, and some studies suggest may live shorter lives; they are more prone to dropping out, job-hopping, and family instability. This skill exists to push back on the "without proper guidance" part.
 
@@ -93,7 +98,7 @@ cognitive-wellbeing-companion/
 
 ## Version
 
-Preview (2026-08-19) — unified lens, hard consent rule, streamlined safety protocol (crisis response owned by the model), thinking model v0.2 linkage.
+v2.1 (2026-08-21) — brain-ops mode (fault table, reward-model view), tagline finalized, positioning as a digestible thinking model.
 
 ## Contributing
 
