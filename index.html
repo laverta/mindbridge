@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mindbridge 心智桥</title>
+  <title>Mindbridge</title>
   <style>
     :root {
       --paper: #e8eaeb;
@@ -20,7 +20,7 @@
       --yellow: #9a6700;
       --yellow-soft: #fff8c5;
       --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-      --sans: "Segoe UI", "Noto Sans SC", "Microsoft YaHei", Arial, sans-serif;
+      --sans: "Segoe UI", "Noto Sans", Arial, sans-serif;
     }
 
     * { box-sizing: border-box; }
@@ -79,8 +79,8 @@
       border-bottom: 1px solid var(--line);
     }
     .eyebrow { margin: 0 0 16px; color: var(--green); font: 700 13px var(--mono); letter-spacing: 0; }
-    h1 { max-width: 780px; margin: 0; font-size: clamp(40px, 5.5vw, 68px); line-height: 1.08; letter-spacing: 0; }
-    .lede { max-width: 640px; margin: 24px 0 0; color: var(--muted); font-size: 19px; line-height: 1.6; text-wrap: pretty; }
+    h1 { max-width: 780px; margin: 0; font-size: clamp(44px, 6vw, 78px); line-height: .98; letter-spacing: 0; }
+    .lede { max-width: 640px; margin: 24px 0 0; color: var(--muted); font-size: 20px; line-height: 1.55; text-wrap: pretty; }
     .route {
       margin-top: 36px;
       flex-wrap: wrap;
@@ -109,7 +109,6 @@
     .node small { display: block; margin-top: 6px; color: var(--muted); font: 11px/1.35 var(--mono); }
     .node.native { border-color: #54aeff; background: var(--blue-soft); }
     .node.fallback { border-color: #d4a72c; background: var(--yellow-soft); }
-    .node.alert { border-color: #ff8182; background: var(--red-soft); }
     .arrow { color: var(--muted); text-align: center; font: 700 18px var(--mono); }
     .legacy { grid-column: 1 / -1; padding: 10px 12px; border: 1px dashed var(--line); border-radius: 6px; color: var(--muted); font: 12px/1.4 var(--mono); }
 
@@ -121,7 +120,7 @@
     .card { min-height: 192px; padding: 22px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
     .card .number { color: var(--muted); font: 12px var(--mono); }
     .card h3 { margin: 20px 0 10px; font-size: 18px; }
-    .card p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.6; text-wrap: pretty; }
+    .card p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.55; text-wrap: pretty; }
 
     .protocol { display: grid; grid-template-columns: .82fr 1.18fr; gap: 16px; margin-top: 16px; }
     .panel { padding: 22px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
@@ -141,66 +140,66 @@
       .topbar, .section-heading, .bottom-note { align-items: flex-start; flex-direction: column; }
       .hero, .protocol { grid-template-columns: 1fr; gap: 30px; }
       .grid { grid-template-columns: 1fr; }
-      h1 { font-size: clamp(36px, 11vw, 56px); }
-      .lede { font-size: 16px; }
+      h1 { font-size: clamp(42px, 14vw, 64px); }
+      .lede { font-size: 17px; }
     }
   </style>
 </head>
 <body>
   <main class="page">
     <header class="topbar">
-      <div class="identity"><span class="mark">MB</span><span>Mindbridge · 心智桥</span></div>
+      <div class="identity"><span class="mark">MB</span><span>Mindbridge</span></div>
       <div class="meta"><span>SKILL v1</span><span class="status">ACTIVE</span></div>
     </header>
 
     <section class="hero">
       <div>
         <p class="eyebrow">COGNITIVE COMPANION / PORTABLE SKILL</p>
-        <h1>用你已经懂的语言，<br>理解你自己的大脑。</h1>
-        <p class="lede">一面用工程师隐喻做成的镜子：主 Agent 与子 Agent、带宽、缓存命中、过拟合。半娱乐，半分析；理解是产品，行动是辅助，永远可选。</p>
-        <div class="route"><span>听见</span><b>&gt;</b><span>理解（打标签的隐喻）</span><b>&gt;</b><span>可选的一小步</span></div>
+        <h1>Understand your mind.<br>In your own language.</h1>
+        <p class="lede">A mirror made of engineer metaphors: main agent and sub-agents, bandwidth, cache hits, overfitting. Half entertainment, half analysis. Understanding is the product; action is auxiliary and always optional.</p>
+        <div class="route"><span>Hear</span><b>&gt;</b><span>Understand (labeled metaphor)</span><b>&gt;</b><span>One optional step</span></div>
       </div>
 
-      <aside class="architecture" aria-label="统一视角示意图">
-        <div class="architecture-header"><strong>统一视角</strong><code>三层 × Agent</code></div>
-        <div class="flow"><div class="node native"><strong>生理层 = 供电</strong><small>睡眠 / 食物 / 身体，供不上则主 Agent 掉线</small></div><div class="arrow">&gt;</div><div class="node"><strong>意志层 = 调度带宽</strong><small>启动成本 / 换挡成本，进入贵退出也贵</small></div></div>
-        <div class="flow"><div class="node"><strong>思维层 = 子 Agent 规模</strong><small>想法多是资源，调度成本随之上升</small></div><div class="arrow">&gt;</div><div class="node"><strong>主 Agent 调度</strong><small>三层是资源视图，Agent 是控制视图</small></div></div>
-        <div class="legacy">METAPHOR / 隐喻：这是一套谈论经验的语言，不是大脑地图，不是医学诊断。</div>
+      <aside class="architecture" aria-label="Unified lens diagram">
+        <div class="architecture-header"><strong>Unified lens</strong><code>three layers x agents</code></div>
+        <div class="flow"><div class="node native"><strong>Physiology = power supply</strong><small>sleep / food / body; low power drops the main agent offline</small></div><div class="arrow">&gt;</div><div class="node"><strong>Will = scheduling bandwidth</strong><small>startup cost / switching cost; entering is expensive, so is leaving</small></div></div>
+        <div class="flow"><div class="node"><strong>Thinking = sub-agent fleet</strong><small>more ideas is a resource; scheduling cost rises with it</small></div><div class="arrow">&gt;</div><div class="node"><strong>Main agent coordinates</strong><small>layers are the resource view, agents are the control view</small></div></div>
+        <div class="legacy">METAPHOR: a language for experience, not a brain map, not a diagnosis.</div>
       </aside>
     </section>
 
     <section class="section">
-      <div class="section-heading"><h2>为理解而建，不为修复而建</h2><p>状态解析器，不是治疗程序。</p></div>
+      <div class="section-heading"><h2>Built to understand, not to fix</h2><p>A state parser, not a therapy program.</p></div>
       <div class="grid">
-        <article class="card"><span class="number">01</span><h3>理解优先</h3><p>帮一个人认出自己的机制。当对方形成自己的策略时，肯定它或轻轻改进——绝不用处方取代他们的自主权。</p></article>
-        <article class="card"><span class="number">02</span><h3>隐喻安全</h3><p>每次套用框架都打标签签名：【开始使用 agent 隐喻】/【三层视角】/【回到白话】。隐喻通过命名经验而成功，通过变成诊断而失败。</p></article>
-        <article class="card"><span class="number">03</span><h3>通用谱系</h3><p>启动摩擦、过载、上下文漂移，人人都会进入；ADHD/AuDHD 只是谱系的远端，体验更频繁更强烈。它是通用工具，不是俱乐部。</p></article>
+        <article class="card"><span class="number">01</span><h3>Understanding first</h3><p>Help a person recognize their own mechanism. When they form their own strategy, affirm it or refine it lightly — never replace their agency with a prescription.</p></article>
+        <article class="card"><span class="number">02</span><h3>Metaphor safety</h3><p>Every framework use is signed out loud: [agent metaphor] / [three-layer view] / [back to plain words]. The metaphor succeeds by naming experience; it fails by becoming a diagnosis.</p></article>
+        <article class="card"><span class="number">03</span><h3>Universal spectrum</h3><p>Startup friction, overload, context drift — every brain enters these states. ADHD/AuDHD is simply the far end of the same spectrum. A universal tool, not a club.</p></article>
       </div>
     </section>
 
     <section class="section">
-      <div class="section-heading"><h2>两种故障模式</h2><p>协调向两个方向失败，而且对称。</p></div>
+      <div class="section-heading"><h2>Two failure modes</h2><p>Coordination fails in two directions, and they are symmetric.</p></div>
       <div class="grid">
-        <article class="card"><span class="number">A</span><h3>噪声崩溃 · 调度失灵</h3><p>意志层带宽不足，主 Agent 丢线，子 Agent 抢总线：思绪涣散、上下文漂移、什么都启动不了。</p></article>
-        <article class="card"><span class="number">B</span><h3>单点俘获 · 过度路由</h3><p>一个子 Agent 早期持续产出，逐渐独占调度，变成唯一视角（hyperfocus）。看起来像优势，代价是需要别的透镜的问题也被它高置信度地回答。</p></article>
-        <article class="card"><span class="number">?</span><h3>校准测试</h3><p>任何被信任的透镜都要回答：这个结论上一次被现实证伪是什么时候？说不出自己失手的透镜，坏掉的是反馈回路，不是高准确率。</p></article>
+        <article class="card"><span class="number">A</span><h3>Noise collapse · dysregulated routing</h3><p>Will-layer bandwidth runs out, the main agent loses the thread, sub-agents grab the bus: scattered thoughts, context drift, nothing starts.</p></article>
+        <article class="card"><span class="number">B</span><h3>Single-lens capture · over-routing</h3><p>One sub-agent delivers early wins and gradually monopolizes scheduling, becoming the only lens (hyperfocus). Looks like strength; the cost is that problems needing another lens get answered by this one, with high confidence.</p></article>
+        <article class="card"><span class="number">?</span><h3>Calibration test</h3><p>Any trusted lens must answer: when was this conclusion last disproven by reality? A lens that cannot name its own misses has a broken feedback loop, not high accuracy.</p></article>
       </div>
     </section>
 
     <section class="section">
-      <div class="section-heading"><h2>最小回应契约</h2><p>快到像聊天，严到可审计。</p></div>
+      <div class="section-heading"><h2>Minimal response contract</h2><p>Fast enough for a chat, strict enough to stay auditable.</p></div>
       <div class="protocol">
-        <article class="panel"><h3>证据标签</h3><div class="legend"><span class="chip ack">evidence</span><span class="chip question">hypothesis</span><span class="chip blocked">metaphor</span><span class="chip result">personal interpretation</span></div><ul class="notes"><li>evidence：有已识别来源支持。</li><li>hypothesis：合理但未在此情境确立。</li><li>metaphor：反思用的语言，不是生物断言。</li><li>危机信号出现时，隐喻全部停下，切回白话直撑。</li></ul></article>
-        <article class="panel"><h3>Response</h3><pre>当前状态：一句中性描述
-可能发生的事：观察与假设，清晰打标签
-【框架标签】：仅在对方伸手要隐喻时给出
-你自己的对策：对方的策略，被肯定或轻改进
-可选小行动：一个小的、可逆的步骤
-安全提示：仅在相关时出现</pre></article>
+        <article class="panel"><h3>Evidence labels</h3><div class="legend"><span class="chip ack">evidence</span><span class="chip question">hypothesis</span><span class="chip blocked">metaphor</span><span class="chip result">personal interpretation</span></div><ul class="notes"><li>evidence: backed by an identified source.</li><li>hypothesis: plausible, not established for this situation.</li><li>metaphor: language for reflection, not a biological claim.</li><li>When crisis signals appear, all metaphors stop and plain direct support takes over.</li></ul></article>
+        <article class="panel"><h3>Response</h3><pre>state: one neutral sentence
+what may be happening: observations and hypotheses, clearly labeled
+[framework tag]: only when the person reaches for the metaphor
+your own move: their strategy, affirmed or lightly refined
+one optional step: small and reversible
+safety note: only when relevant</pre></article>
       </div>
     </section>
 
-    <footer class="bottom-note"><span>mindbridge · 心智桥</span><span>non-clinical / metaphor-first / understanding over fixing</span></footer>
+    <footer class="bottom-note"><span>mindbridge</span><span>non-clinical / metaphor-first / understanding over fixing</span></footer>
   </main>
 </body>
 </html>
