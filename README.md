@@ -1,104 +1,104 @@
-# mindbridge — 半娱乐半解析的心智状态解析 Skill
+# mindbridge — A half-entertaining, half-analytical state parser
 
-> **推演与思维无任何医学根据。** 本 Skill 的所有推理框架、隐喻与建议，仅来自制作者（AuDHD，ADHD+自闭特质）自身的经验与思考，**未经任何临床验证**。它不提供诊断、治疗、用药或专业照护替代。如果你持续受困、严重失眠或处于危机中，请联系合格的专业人员或当地紧急服务。详见 [LICENSE](LICENSE) 的非临床声明。
+> **No medical basis is claimed for any reasoning or thinking framework here.** Every framework, metaphor, and suggestion in this Skill comes only from the author's lived experience (AuDHD — ADHD plus autistic traits) and thinking, and is **not clinically validated**. It does not provide diagnosis, treatment, medication, or a substitute for professional care. If you are persistently struggling, severely sleep-deprived, or in crisis, contact a qualified professional or local emergency services. See the non-clinical statement in [LICENSE](LICENSE).
 
-一个用工程师语言帮你理解自己状态的 skill：过拟合、上下文漂移、带宽、缓存命中。它是**半娱乐、半解析**——一面用你本来就懂的词做成的镜子。理解是产品，行动是辅助。
+A skill that helps you understand your own state using engineer language you already know: overfitting, context drift, bandwidth, cache hits. It is **half entertainment, half analysis** — a mirror made of words you already speak. Understanding is the product; action is auxiliary.
 
-**为谁而做**：为**任何人**。这套框架描述的状态（启动困难、过载、注意力漂移、过拟合）是普遍的——每个人在压力下都会暂时进入。ADHD/AuDHD 是这条谱系的远端，这些状态在那里不是偶发，而是生活的形状。所以这个 skill 不是 ADHD 专用，只是对 ADHD 用户尤其贴合。制作者本人是 AuDHD，小时候被霸凌、做事拖延，把自己挖空才考上一所三本院校的新闻学专业；父母没有受过教育，同样带着未被引导的 ADHD 特质。这种环境锻造出的东西，制作者称之为"命运给的礼物"：极度理性与结构化思维。用本 skill 自己的语言说，那是后训练的起点。
+**Who it is for**: **anyone**. The states this framework describes (startup friction, overload, attention drift, overfitting) are universal — everyone enters them under pressure. ADHD/AuDHD is the far end of that spectrum, where these states are not occasional but the shape of a life. So this skill is not ADHD-only; it simply fits ADHD users especially well. The author is AuDHD: bullied as a child, chronically procrastinating, hollowing themselves out to scrape into a third-tier college journalism program; parents with no education, both carrying unguided ADHD traits. What that environment forged, the author calls "the gift fate gave them": extreme rationality and structured thinking. In this skill's own language, that was where post-training began.
 
-**目的是什么**：不是帮用户解决实际问题，而是**帮助用户理解自己的内在**。一旦他们看清自己身上发生了什么，就会形成自己的对策——然后告诉 skill，skill 用这套思维框架肯定或微调。理解是产品，行动是辅助。
+**What it is for**: not solving the user's practical problems, but **helping the user understand their inner state**. Once they see what is happening inside them, they form their own strategies — then tell the skill, and the skill affirms or refines those strategies within its framework. Understanding is the product; action is auxiliary.
 
-**做了什么**：把制作者的思维（人脑≈多 Agent 系统、三层带宽、联邦/议会制、睡眠即后台处理）工程化成一套半娱乐半解析的对话协议。隐喻保留、机制标注、医学边界明确。用了框架会【标注】出来，让你看见 skill 在起作用。
+**What it does**: engineers the author's own thinking (the brain ≈ a multi-agent system, three-layer bandwidth, federated/parliamentary coordination, sleep as background processing) into a half-entertaining, half-analytical conversation protocol. Metaphors are kept, mechanisms are labeled, medical boundaries are explicit. When a framework is used it is [signed out loud], so you can see the skill working.
 
-制作者知道现实的重量：相关研究提示（是统计，不是宿命）——没有正确引导时，ADHD 人群平均收入更低、换工作更频繁、教育完成度更低，部分研究提示平均寿命可能更短，更容易厌学、频繁跳槽、家庭不和谐。这个 skill 存在的意义，就是对抗"没有正确引导"那一部分。
+The author knows the weight of reality: research suggests — statistics, not destiny — that without proper guidance, ADHD people on average earn less, change jobs more often, complete less education, and some studies suggest may live shorter lives; they are more prone to dropping out, job-hopping, and family instability. This skill exists to push back on the "without proper guidance" part.
 
-## 快速开始
+## Quick start
 
-### 安装
+### Install
 
-1. 下载本仓库或单独下载 `SKILL.md` 与 `references/` 目录。
-2. 放入你的 AI 助手（如 ZCode、Claude、GPTs）的 skills 目录。
-3. 首次使用建议同时阅读 `FOREWORD.md`（制作者前言）。
+1. Download this repository, or just `SKILL.md` and the `references/` directory.
+2. Put it in your AI assistant's skills directory (ZCode, Claude, GPTs, etc.).
+3. On first use, reading `FOREWORD.md` (the author's preface) is recommended.
 
-### 使用
+### Use
 
-| 你遇到的场景 | 对 AI 说的话 |
+| What you're experiencing | Say to the AI |
 |---|---|
-| 压力大、动不了 | "压力好大 / 动不了 / 好累" |
-| 拖延了一整天 | "拖延了一整天，什么都干不动" |
-| 脑子转不动 | "脑子转不动 / 看不进去" |
-| 情绪过载 | "吵架后难受 / 撑不住了" |
-| 英文环境 | "burnt out / brain is fried / can't get out of bed" |
+| High pressure, can't move | "压力好大 / 动不了 / 好累" |
+| Procrastinated all day | "拖延了一整天，什么都干不动" |
+| Brain won't turn | "脑子转不动 / 看不进去" |
+| Emotional overload | "吵架后难受 / 撑不住了" |
+| In English | "burnt out / brain is fried / can't get out of bed" |
 
-AI 会：先复述你的状态 → 最多问 2-3 个短问题（睡眠/饮食/身体/环境）→ 给一个 5-20 分钟能完成的小行动 + 完成信号 → 可选地询问是否启用两种视角（AuDHD 视角 / 三层带宽视角），**必须经你同意才启用**。
+The AI will: restate your state first → ask at most 2–3 short questions (sleep / food / body / environment) → offer one small action that takes 5–20 minutes with a completion signal → optionally ask whether to enable one of two lenses (AuDHD lens / three-layer bandwidth lens), **which are only enabled with your consent**.
 
-### 安全
+### Safety
 
-危机响应（热线、紧急号码）是 AI 模型自己的职责，不是本 skill 的职责。本 skill 只做一件事：**不把坏时刻变得更糟**——当用户处于危机时，停下所有隐喻和框架，转为直接、简短的支持；任何时候都不诊断、不处方、不替代专业照护。
+Crisis response (hotlines, emergency numbers) is the AI model's own job, not this skill's. This skill does exactly one thing: **does not make a bad moment worse** — when the user is in crisis, all metaphors and frameworks stop and support becomes direct and short; it never diagnoses, prescribes, or replaces professional care.
 
-## 目录结构
+## Directory structure
 
 ```text
 cognitive-wellbeing-companion/
-├── SKILL.md                        # 主定义：工作流、响应契约、操作规则
-├── FOREWORD.md                     # 制作者前言（为何存在、为谁而做）
-├── LICENSE                         # MIT + 非临床声明
-├── RESEARCH_LOG.md                 # 设计过程、版本历史、测试方法
+├── SKILL.md                        # Main definition: workflow, response contract, operating rules
+├── FOREWORD.md                     # Author's preface (why it exists, who it is for)
+├── LICENSE                         # MIT + non-clinical statement
+├── RESEARCH_LOG.md                 # Design process, version history, testing approach
 ├── references/
-│   ├── safety.md                   # 安全协议（危机切换 + 披露接住 + 边界）
-│   ├── active-support.md           # 源检查 + 干预库（带完成信号）
-│   ├── audhd-lens.md               # 可选 AuDHD 视角（含第二种故障模式）
-│   ├── three-layer-lens.md         # 可选三层带宽视角
-│   ├── evidence-boundaries.md      # 证据四标签：evidence/hypothesis/metaphor/personal interpretation
-│   └── state-schema.md             # 紧凑状态结构（供 Agent 工作流集成）
+│   ├── safety.md                   # Safety protocol (crisis switch + disclosure holding + boundaries)
+│   ├── active-support.md           # Source check + intervention library (with completion signals)
+│   ├── audhd-lens.md               # Optional AuDHD lens (incl. the second failure mode)
+│   ├── three-layer-lens.md         # Optional three-layer bandwidth lens
+│   ├── evidence-boundaries.md      # Four evidence labels: evidence/hypothesis/metaphor/personal interpretation
+│   └── state-schema.md             # Compact state schema (for Agent workflow integration)
 ├── agents/
-│   └── openai.yaml                 # 显式调用配置（不隐式触发）
+│   └── openai.yaml                 # Explicit invocation config (no implicit triggering)
 └── tests/
-    └── test_skill_contract.py      # 11 个契约测试
+    └── test_skill_contract.py      # 11 contract tests
 ```
 
-## 核心设计
+## Core design
 
-### 证据分级（对用户说的话都标标签）
+### Evidence grading (everything said to the user is labeled)
 
-- `evidence`：有明确临床/研究来源
-- `hypothesis`：合理但未证实
-- `metaphor`：用于反思的语言，非生物声明
-- `personal interpretation`：制作者/用户自己的经验
+- `evidence`: backed by an identified clinical/research source
+- `hypothesis`: plausible but not established
+- `metaphor`: language for reflection, not a biological claim
+- `personal interpretation`: the author's/user's own experience
 
-**制作者的推演和思维没有医学根据，全部落在 metaphor / personal interpretation / hypothesis。**
+**The author's reasoning and thinking have no medical basis and all fall under metaphor / personal interpretation / hypothesis.**
 
-### 两种可选视角（都需用户同意）
+### Two optional lenses (both require user consent)
 
-1. **AuDHD 视角**（`audhd-lens.md`）：主 agent / 子 agent 协调隐喻。两种故障模式：噪声崩溃（协调失控）与单点俘获（某个子 agent 干得漂亮但从不还方向盘）。**这来自制作者自身的经验，非临床结论。**
-2. **三层带宽视角**（`three-layer-lens.md`）：生理 / 意志 / 思维三层耦合，各自带宽有限。匹配支持到受影响的层，不用意志力硬顶生理极限。
+1. **AuDHD lens** (`audhd-lens.md`): main agent / sub-agents coordination metaphor. Two failure modes: noise collapse (coordination breaks down) and single-lens capture (one sub-agent performs brilliantly but never hands back the wheel). **This comes from the author's own experience, not clinical conclusions.**
+2. **Three-layer bandwidth lens** (`three-layer-lens.md`): physiology / will / thinking, three coupled layers each with limited bandwidth. Match support to the affected layer; do not force a physiological limit with willpower.
 
-### 干预库（`active-support.md`）
+### Intervention library (`active-support.md`)
 
-5 类常见卡点，每类 2-4 个 5-20 分钟小行动，全部带完成信号。**所有建议都具体、限时、可验证**——不是"要加油"，是"先吃口东西，吃完就算完成"。
+5 common stuck states, each with 2–4 small actions of 5–20 minutes, all with completion signals. **Every suggestion is concrete, time-boxed, verifiable** — not "hang in there", but "eat something first; done means the food is finished".
 
-## 为什么值得信
+## Why trust it
 
-- **边界清晰**：不诊断、不处方，危机响应交给模型本身，skill 只负责"危机时停下隐喻"
-- **校准声明明确**：不声称有医学根据，四标签分级所有说法
-- **consent 门槛**：可选视角必须用户同意才启用，不偷偷分析用户
-- **可测试**：契约测试覆盖护栏、边界、lens 安全
+- **Clear boundaries**: no diagnosis, no prescription; crisis response is left to the model; the skill's only job is to stop metaphors in crisis.
+- **Explicit calibration statement**: claims no medical basis; every claim is graded with one of the four labels.
+- **Consent gate**: optional lenses are only enabled with user consent; the user is never analyzed covertly.
+- **Testable**: contract tests cover guardrails, boundaries, and lens safety.
 
-## 已知边界
+## Known boundaries
 
-- 非诊断、非治疗、非处方，不替代专业照护
-- 干预建议未经临床验证，基于制作者经验与通用自我管理常识
-- 危机响应（热线/紧急号码）由模型负责，不在本 skill 范围
-- 长对话记忆与渐进认知深化是 v2 方向，预备版未实现
+- Non-diagnostic, non-therapeutic, non-prescription; does not replace professional care.
+- Intervention suggestions are not clinically validated; they are based on the author's experience and general self-management common sense.
+- Crisis response (hotlines/emergency numbers) is the model's responsibility, out of this skill's scope.
+- Long-conversation memory and progressive cognitive deepening are a v2 direction, not implemented in this preview.
 
-## 版本
+## Version
 
-预备版（2026-08-19）——统一视角、consent 硬规则、安全协议精简（危机响应归模型）、思维模型 v0.2 关联。
+Preview (2026-08-19) — unified lens, hard consent rule, streamlined safety protocol (crisis response owned by the model), thinking model v0.2 linkage.
 
-## 贡献
+## Contributing
 
-欢迎 PR：改进工作流、补充语言翻译、完善统一视角。**任何新增的医学/心理断言都必须附 `evidence` 标签并给出来源，否则合并前会被要求修改。**
+PRs welcome: improve the workflow, add language translations, refine the unified lens. **Any new medical or psychological claim must carry an `evidence` label with a source, or it will be asked to change before merging.**
 
 ## License
 
-MIT + 非临床声明，见 [LICENSE](LICENSE)。
+MIT + non-clinical statement, see [LICENSE](LICENSE).
