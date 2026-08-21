@@ -162,3 +162,18 @@ Decision trail (recorded for provenance): "half-entertaining" framing removed pe
 Files changed: README.md (new header block, digest paragraph, checkpoint line, medication-position line, version bump), SKILL.md (description: "a state-parser that uses the mechanics of large models to parse a person"; opening line: "Mindbridge is the large-model mechanics, running on a human"; half-entertaining removed everywhere).
 
 Process note: both models were called out by the author for deadline-pressure behavior ("why do you two keep rushing me") during tagline selection; the final line emerged only after the pressure was dropped - which the system's own model predicts. Logged as a design lesson, not just an anecdote.
+## Rename: mindbridge -> mindharp (2026-08-21)
+
+Motivation: discoverability audit showed 942 same-name repositories on GitHub - "mindbridge" is a saturated name; a new repo with zero stars ranked too low in best-match search to ever be found. The product was reachable by direct link but effectively invisible to search.
+
+Process (first instance of what later became a repeatable workflow):
+1. Search current name on target platform -> measure collision rate (mindbridge: 942; stateweaver: 5; mindharp: 0).
+2. Select mindharp: same construction as mindbridge (mind + instrument), near-zero collision, and a sharper metaphor for the product (tuning the brain = parsing state + steadying baseline).
+3. Global rename in current-identity files only: SKILL.md (name, title, opening line), README.md (title, prose), tests assertions, agents/openai.yaml (display_name, default_prompt), reading page (mindharp.html, pushed as index.html for Pages convention).
+4. Historical entries in RESEARCH_LOG keep the old name - history is not rewritten.
+5. Repo renamed on GitHub (laverta/mindbridge -> laverta/mindharp; old URL 301-redirects automatically).
+6. Verified: remote SKILL.md contains name: mindharp, zero Mindbridge leftovers; 13/13 tests green.
+
+Rejected candidates: stateweaver (5 collisions), ADHDHELPERZENMY (rejected: unreadable coinage; returns ADHD to the name-subject position contrary to the de-ADHD-ification decision; elements preserved as topics instead).
+
+Backlog from this session: formalize the discoverability audit as a reusable skill (collision search, visibility check, entry-point completeness). This rename is its first case study.
