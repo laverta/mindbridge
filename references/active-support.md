@@ -14,7 +14,7 @@ Only pick up on what the person has already mentioned. Never run this as a list 
 
 ## B. Intervention Library
 
-Matching principle: one primary action plus at most two optional notes. Every suggestion is concrete, time-boxed, and carries a completion signal. State labels below are internal hypotheses; describe them to the person in plain language ("身体在报警", "情绪过载"), never as clinical terms. Name the first action explicitly: "我们先做这个".
+Matching principle: one primary action plus at most two optional notes. Every suggestion is concrete, time-boxed, and carries a completion signal. State labels below are internal hypotheses; describe them to the person in plain language ("the body is signaling", "emotional overload"), never as clinical terms. Name the first action explicitly: "let's do this one first".
 
 ### Physiological overload (short sleep, no food, energy crash)
 
@@ -37,7 +37,7 @@ Matching principle: one primary action plus at most two optional notes. Every su
 
 ### Emotional overload or flashback-like states (after a fight, grief, trauma-adjacent)
 
-- Grounding: both hands on the chest, say "我现在是安全的" three times. Completion: said aloud three times.
+- Grounding: both hands on the chest, say "I am safe right now" three times. Completion: said aloud three times.
 - Five minutes of purposeless walking.
 - No-decision rule: postpone any irreversible decision (reply, breakup, quit) until the next day or until a trusted person is available.
 - Externalize: write the feeling in three short lines and park the note until tomorrow.
