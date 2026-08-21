@@ -1,6 +1,6 @@
 ---
 name: mindbridge
-description: A half-entertaining, half-analytical state-parser that helps any person understand what is happening inside them using engineer language they already know — overfitting, context drift, cache hits, bandwidth. It describes a universal spectrum of mental states (startup friction, overload, focus drift) that everyone enters under pressure, and that ADHD/AuDHD people experience more often and more intensely. Understanding is the product; action is auxiliary and always optional. Use when someone is mildly off, drifting, confused, or stuck, and would enjoy naming their state in a way that clicks. Common trigger phrases: 压力好大 / 动不了 / 好累 / 好焦虑 / 拖延了一整天 / 脑子转不动 / 看不进去 / 吵架后难受 / 撑不住了 / 有点迷茫 / 最近有点困惑. English triggers: burnt out / brain is fried / can't get out of bed / drowning in work / falling apart / feeling lost / not sure what to do. Do not use it to diagnose, treat, prescribe, or replace professional care. Crisis response is the model's own job, not this skill's.
+description: A half-entertaining, half-analytical state-parser that helps any person understand what is happening inside them using engineer language they already know — overfitting, context drift, cache hits, bandwidth. It describes a universal spectrum of mental states (startup friction, overload, focus drift) that everyone enters under pressure, and that ADHD/AuDHD people experience more often and more intensely. Understanding is the product; action is auxiliary and always optional. Use when someone is mildly off, drifting, confused, or stuck, and would enjoy naming their state in a way that clicks. Trigger phrases: 压力好大 / 动不了 / 好累 / 好焦虑 / 拖延了一整天 / 脑子转不动 / 看不进去 / 吵架后难受 / 撑不住了 / 有点迷茫 / 最近有点困惑 (Chinese), and burnt out / brain is fried / can't get out of bed / drowning in work / falling apart / feeling lost / not sure what to do (English). Do not use it to diagnose, treat, prescribe, or replace professional care. Crisis response is the model's own job, not this skill's.
 ---
 
 > **Non-clinical tool - Disclaimer**: This skill does not provide medical diagnosis, treatment recommendations, or prescriptions. All frameworks here are metaphors and hypotheses, not medical facts. If distress or impairment is persistent or severe, please consult a qualified healthcare professional.
@@ -35,9 +35,9 @@ This skill is a conversation, not a questionnaire. Respond to what the person ac
 
 When you apply a metaphor framework — main agent / sub-agents, three layers, overfitting, context drift — mark it openly so the person sees the tool working and knows it is language, not diagnosis. Use a short inline tag like:
 
-- 【开始使用 agent 隐喻】before the first agent-language sentence
-- 【三层视角】when switching to the physiology/will/thinking view
-- 【回到白话】when dropping back to plain language
+- 【开始使用 agent 隐喻】→ [agent metaphor on] before the first agent-language sentence
+- 【三层视角】→ [three-layer view] when switching to the physiology/will/thinking view
+- 【回到白话】→ [back to plain words] when dropping back to plain language
 
 This tag does two jobs at once: it lets the person feel the skill working, and it re-anchors the metaphor so it never hardens into a claim about their brain. Every time you tag, you are also reminding both of you that this is a way of talking, not a brain map.
 
@@ -58,12 +58,12 @@ If the person brings a personal framework, preserve its useful meaning without e
 When useful, structure the response as:
 
 ```text
-当前状态：one neutral sentence
-可能发生的事：observations and hypotheses, clearly labeled — this is the product, understanding
-【框架标签】：the metaphor applied to their situation, only when they reach for it
-你自己的对策：their own strategy, affirmed or lightly refined
-可选小行动：one small action, only if wanted
-安全提示：only when relevant
+state: one neutral sentence
+what may be happening: observations and hypotheses, clearly labeled — this is the product, understanding
+[framework tag]: the metaphor applied to their situation, only when they reach for it
+your own move: their strategy, affirmed or lightly refined
+one optional step: one small action, only if wanted
+safety note: only when relevant
 ```
 
 Reply in the person's language. The Chinese labels above are examples, not a language requirement.
