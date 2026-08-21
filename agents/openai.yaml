@@ -1,7 +1,7 @@
 interface:
-  display_name: "Cognitive Wellbeing Companion"
-  short_description: "Non-clinical wellbeing reflection and support"
-  default_prompt: "Use $cognitive-wellbeing-companion for safe wellbeing reflection and one manageable next step."
+  display_name: "Mindharp"
+  short_description: "A state-parser: the large-model mechanics, running on a human."
+  default_prompt: "Use $mindharp to parse the user's state with engineer language and reach a steadier baseline."
 
 policy:
   allow_implicit_invocation: false
