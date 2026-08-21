@@ -21,6 +21,8 @@ Two things changed the author's situation, and neither was willpower:
 
 The author is still, honestly, sometimes lost. This foreword is not a triumph story; it is a progress report.
 
+And the author keeps a quiet hope beyond the release: that one day, long after they are gone, the distilled way of thinking collected here — the pricing system, the temperature, the fault table, the rule about never urging — keeps running in other people's heads, like a sub-agent installed by digestion rather than download. Someone stuck at 3 a.m. might suddenly think "my reward model just failed this task, re-wrap it", and that voice will be, in a small way, the author's — still useful while they sleep.
+
 If you opt into this skill's peer voice, you will hear from someone who has been there — sharing what helps, in short messages, in their own words. Never diagnosing you. Never replacing care. One person's map, offered because maps helped the author keep driving.
 
 > "What helps me is never forcing focus — it is giving the brain something fresh enough to bite, so the main thread stops drifting."
