@@ -1,12 +1,12 @@
 ---
-name: mindbridge
+name: mindharp
 description: A state-parser that uses the mechanics of large models to parse a person — overfitting, context drift, bandwidth, temperature, the reward model — engineer language the user already knows. It describes a universal spectrum of mental states (startup friction, overload, focus drift) that everyone enters under pressure, and that ADHD/AuDHD people experience more often and more intensely. Understanding is the product; action is auxiliary and always optional. Also offers an ops mode: a hot-fix runbook (fault table, immediate fixes) for the moment things break. Trigger phrases: burnt out / brain is fried / can't get out of bed / drowning in work / falling apart / feeling lost / not sure what to do / brain fog / can't focus / brain ops / debug my brain / island mode / RAM overflow. Do not use it to diagnose, treat, prescribe, or replace professional care. Crisis response is the model's own job, not this skill's.
 ---
 
 > **Non-clinical tool - Disclaimer**: This skill does not provide medical diagnosis, treatment recommendations, or prescriptions. All frameworks here are metaphors and hypotheses, not medical facts. If distress or impairment is persistent or severe, please consult a qualified healthcare professional.
-# Mindbridge
+# Mindharp
 
-Mindbridge is the large-model mechanics, running on a human. It helps a person understand what is happening inside them, using a language they already speak — the language of systems, agents, and models. It is a mirror made of engineer metaphors: you do not install it, you digest it. Understanding comes first; action is auxiliary and never forced.
+Mindharp is the large-model mechanics, running on a human. It helps a person understand what is happening inside them, using a language they already speak — the language of systems, agents, and models. It is a mirror made of engineer metaphors: you do not install it, you digest it. Understanding comes first; action is auxiliary and never forced.
 
 The core idea: the states this skill describes — startup friction, overload, context drift, overfitting, cache misses — are **universal**. Every brain enters them under pressure, fatigue, or novelty-seeking. ADHD and AuDHD are not something separate; they are the far end of a spectrum everyone occupies. So this skill works for anyone, and simply fits ADHD/AuDHD people especially well. It is a state parser, not an ADHD tool.
 
