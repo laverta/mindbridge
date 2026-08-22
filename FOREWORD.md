@@ -2,13 +2,11 @@
 
 This project's first purpose is to help people understand what is happening inside them. It is not an ADHD tool. It is a state parser, built from one person's hard-won self-observation, that happens to fit ADHD people especially well.
 
-The framework came from the author's own life. Two years out of university, four or five jobs, none lasting: learning intensely for a few months, then needing to leave. Well-meaning advice ("just be consistent", "try harder") assumed the problem was effort. It was not. It was a brain that starves without novelty and loses its main thread under pressure.
+The framework came from the author's own experience of living with AuDHD. Two years out of university, four or five jobs, none lasting: learning intensely for a few months, then needing to leave. Well-meaning advice ("just be consistent", "try harder") assumed the problem was effort. It was not. It was a brain that starves without novelty and loses its main thread under pressure.
 
 The author holds a personal view — that attention and executive traits sit on a spectrum everyone occupies — while fully recognizing that severity varies enormously. The states this skill names (startup friction, overload, focus drift, overfitting) are universal: every brain enters them under pressure. ADHD and AuDHD are the far end of that spectrum, where these states stop being occasional and become the shape of a life. This skill is built so the sharp end is finally heard, but anyone who has ever been stuck can use it.
 
-The road here was not gentle. The author was bullied as a child, and procrastinated through years of school, hollowing themselves out to scrape into a third-tier college for journalism. Home was no refuge: parents with no education, both carrying wild, unguided ADHD traits of their own. No one in that environment could teach executive function — it did not exist as a concept there.
-
-What that environment forged was a survival toolkit: extreme rationality and structured thinking. The author calls it the gift their fate gave them. In the language of this skill's own metaphor, that was where post-training began — not chosen, but built, response by response, in a place where no one else was building it.
+What living with this shaped was a survival toolkit: extreme rationality and structured thinking. The author calls it the gift their neurotype gave them. In the language of this skill's own metaphor, that was where post-training began — not chosen, but built, response by response.
 
 The author knows the stakes. Research suggests — it is statistics, not destiny — that without proper guidance, ADHD people on average earn less, change jobs more, finish less education, and may even live shorter lives. Prone to dropping out, to quitting, to homes that fall apart. The author has felt every one of those pulls. This skill exists to push back on the "without proper guidance" part.
 
